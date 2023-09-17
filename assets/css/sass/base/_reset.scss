@@ -1,0 +1,100 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::-moz-selection {
+  background: $gray;
+  color: $white;
+}
+
+*::selection {
+  background: $gray;
+  color: $white;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: $black;
+}
+
+body {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "font-reg", sans-serif;
+  background: $black;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, $gray, $black);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, $gray, $black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: $white;
+}
+
+main {
+  background: $white;
+  color: $black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.title-h2 {
+  font-size: clamp(26px, calc(26px + 0.11481 * (100vw - 360px)), 150px);
+  letter-spacing: 1.2rem;
+}
+
+span {
+  display: inline-block;
+}
+
+a, a:visited {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  color: $white;
+  transition: 0.1s linear;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: $white;
+    height: 0.1rem;
+    bottom: -0.1rem;
+    left: 0;
+    transform-origin: left;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+    color: $gray;
+  }
+
+  &:hover::after {
+    animation: animLink 1.4s infinite ease-in-out;
+  }
+}
+
+@keyframes animLink {
+  50% {
+    transform: scaleX(0.2);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+em {
+  font-family: "font-bold", sans-serif;
+  color: $gray;
+}
+
+strong {
+  font-family: "font-bold", sans-serif;
+  color: $black;
+}

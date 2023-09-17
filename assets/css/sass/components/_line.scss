@@ -1,0 +1,10 @@
+.line {
+   height: 2px;
+   width: 70%;
+   margin: 0 auto;
+   background: $gray;
+   transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+   transition-delay: 0.45s;
+   opacity: 1;
+   transform: scaleX(1);
+ }

@@ -1,0 +1,14 @@
+.skills {
+  margin: 200px 0 250px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 150px;
+  }
+}
+
+.skills__skill-wrapper {
+  margin: 30px 0;
+  font-size: clamp(20px, calc(20px + 0.06481 * (100vw - 360px)), 90px);
+  letter-spacing: 1.2rem;
+}

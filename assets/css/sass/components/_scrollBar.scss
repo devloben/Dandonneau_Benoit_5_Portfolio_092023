@@ -1,0 +1,10 @@
+#scroll-bar {
+   position: absolute;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 0;
+   height: 5px;
+   border-radius: 0 50px 50px 0;
+   background: linear-gradient(to right, $white, $gray); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
