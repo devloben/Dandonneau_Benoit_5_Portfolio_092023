@@ -245,6 +245,15 @@ header {
   padding-left: 2vw;
   margin-bottom: 2vw;
 }
+.about__article__right .social {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.about__article__right .social img {
+  width: 3rem;
+  height: auto;
+}
 
 .cv {
   display: block;

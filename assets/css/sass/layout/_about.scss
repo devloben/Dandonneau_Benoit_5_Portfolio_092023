@@ -42,6 +42,18 @@
     padding-left: 2vw;
     margin-bottom: 2vw;
   }
+
+  .social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+
+    img {
+      width: 3rem;
+      height: auto;
+    }
+  }
+
 }
 
 .cv {
