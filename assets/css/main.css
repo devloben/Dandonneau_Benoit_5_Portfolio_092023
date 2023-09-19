@@ -146,7 +146,7 @@ header {
 .intro {
   padding: 15vw 3vw 1vw 12vw;
 }
-.intro p {
+.intro span {
   font-size: clamp(25px, 25px + 0.06944 * (100vw - 360px), 100px);
   letter-spacing: 6px;
   line-height: clamp(70px, 70px + 0.07407 * (100vw - 360px), 150px);
@@ -155,27 +155,28 @@ header {
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
   animation: intro 1s ease forwards;
+  display: block;
 }
-.intro p:nth-child(1) {
+.intro span:nth-child(1) {
   animation-delay: 1s;
 }
-.intro p:nth-child(2) {
+.intro span:nth-child(2) {
   animation-delay: 1.2s;
 }
-.intro p:nth-child(3) {
+.intro span:nth-child(3) {
   animation-delay: 1.4s;
 }
-.intro p:nth-child(4) {
+.intro span:nth-child(4) {
   animation-delay: 1.6s;
   font-family: "font-bold", sans-serif;
   color: #818b94;
 }
-.intro p:nth-child(5) {
+.intro span:nth-child(5) {
   animation-delay: 1.8s;
   font-family: "font-bold", sans-serif;
   color: #818b94;
 }
-.intro p:nth-child(6) {
+.intro span:nth-child(6) {
   animation-delay: 2s;
   font-family: "font-bold", sans-serif;
   color: #818b94;
