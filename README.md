@@ -7,4 +7,4 @@ Exercice réalisé dans le cadre de la formation ["Web Développeur"](https://op
 
 [Visualisez le Portfolio](https://devloben.github.io/Dandonneau_Benoit_5_Portfolio_092023/).
 
-![Copie écran du site Benoît Dandonneau - Web développeur Junior](https://devloben.github.io/Dandonneau_Benoit_5_Portfolio_092023/assets/img/copie_ecran_portfolio.jpg)
+![Copie écran du site Benoît Dandonneau - Web développeur Junior](https://github.com/devloben/Dandonneau_Benoit_5_Portfolio_092023/blob/main/assets/img/copie_ecran_portfolio.jpg)
