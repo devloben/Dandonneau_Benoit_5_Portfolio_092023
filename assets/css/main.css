@@ -440,6 +440,9 @@ header {
   margin: 0;
   padding: 50px;
 }
+.scroll-up a:hover {
+  color: #2d3134;
+}
 
 #scroll-bar {
   position: absolute;
