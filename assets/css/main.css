@@ -372,8 +372,8 @@ header {
   position: absolute;
   top: 50%;
   transform: translate(-5rem, -50%);
-  margin-left: 8rem;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 2vw;
   transition: 0.4s ease-out;
   opacity: 0;
 }
@@ -386,24 +386,12 @@ header {
   color: #f3f4f5;
 }
 
-#p2 {
-  margin: 0 8vw 0 auto;
+.pair {
+  margin-left: 10vw;
 }
 
-#p3 {
-  margin-left: 9vw;
-}
-
-#p4 {
-  margin: 0 5vw 0 auto;
-}
-
-#p5 {
-  margin-left: 12vw;
-}
-
-#p6 {
-  margin: 0 8vw 0 auto;
+.impair {
+  margin: 0 10vw 0 auto;
 }
 
 @media (max-width: 1440px) {
