@@ -3,7 +3,7 @@
        "id": "p01",
        "title": "Booki",
        "url": "https://github.com/devloben/Dandonneau_Benoit_2_Booki_022023",
-       "description": "Créez la page d'accueil d'une agence de voyage avec HTML/CSS",
+       "description": "Créez la page d'accueil d'une agence de voyage avec HTML/CSS (flexbox, Git/GitHub, W3C )",
        "picture": "./assets/img/booki_1.jpg"
    }, 
     {
@@ -17,21 +17,21 @@
        "id": "p03",
        "title": "Menu Marker",
        "url": "https://delightful-zucchini-f86.notion.site/Accueil-aa4c6581b72c488cb72768687c591c19",
-       "description": "Planifiez le développement du site de votre client (Notion.so)",
+       "description": "Planifiez le développement du site de votre client avec Notion.so (spécifications techniques, gestion de projet, veille technologique)",
        "picture": "./assets/img/menu-marker.jpg"
    },
     {
        "id": "p04",
        "title": "Nina Carducci",
        "url": "https://github.com/devloben/Dandonneau_Benoit_1_code_optimise_052023",
-       "description": "Débuggez et optimisez un site de photographe (SEO)",
+       "description": "Débuggez et optimisez un site de photographe (SEO, optimisation, accessibilité, référencement )",
        "picture": "./assets/img/nina-carducci.jpg"
    },
     {
        "id": "p05",
        "title": "Kasa",
        "url": "https://github.com/devloben/Dandonneau_Benoit_Kasa_072023",
-       "description": "Créez une application web de location immobilière avec React",
+       "description": "Créez une application web de location immobilière avec React (animation CSS, Sass, Create ReactApp, React Router, composants)",
        "picture": "./assets/img/kasa.jpg"
    },
     {
