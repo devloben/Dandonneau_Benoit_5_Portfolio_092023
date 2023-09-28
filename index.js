@@ -1,14 +1,4 @@
-// Barre de progression
-window.onload = () => {
-   window.addEventListener("scroll", () => {
-      let hauteur = document.documentElement.scrollHeight - window.innerHeight
-      let position = window.scrollY
-      let largeur = document.documentElement.clientWidth
-      let scrollBar = (position / hauteur) * largeur
-      document.getElementById("scroll-bar").style.width = scrollBar + "px"
-   })
-}
-
+async function getData() {
 try {
    const reponse = await fetch('dataProjects.json')
    const projects = await reponse.json()
@@ -51,3 +41,16 @@ try {
    } catch (error) {
        console.error('Une erreur est survenue dans la récupération des données.')
    }
+}
+getData()
+
+// Barre de progression
+window.onload = () => {
+    window.addEventListener("scroll", () => {
+       let hauteur = document.documentElement.scrollHeight - window.innerHeight
+       let position = window.scrollY
+       let largeur = document.documentElement.clientWidth
+       let scrollBar = (position / hauteur) * largeur
+       document.getElementById("scroll-bar").style.width = scrollBar + "px"
+    })
+ }
